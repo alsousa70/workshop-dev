@@ -15,3 +15,6 @@ jobs:
           echo "Valor da VAR1: ${{ vars.VAR1 }}"
           echo "Valor da VAR2: ${{ vars.VAR2 }}"
           echo "Valor da VAR3: ${{ vars.VAR3 }}"
+      - name: Exibir seu nome
+        run: | 
+          echo "André"
